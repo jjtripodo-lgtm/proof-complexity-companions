@@ -1,0 +1,64 @@
+version: "v0.4"
+project:
+  name: "A coefficient-mass separation for the pigeonhole principle"
+  description: >-
+    At twice as many pigeons as holes, the plain pigeonhole principle requires
+    exponentially larger real twin-literal Nullstellensatz coefficient mass
+    than the functional version. The compared theorem is the explicit
+    diagonal separation.
+  authors: ["John Tripodo"]
+  license: "MIT"
+  responsible_maintainers: ["John Tripodo"]
+classification:
+  arxiv: ["math.LO", "cs.CC"]
+  msc2020: ["03F20"]
+sources:
+  - title: "Diagonal separation for plain and functional pigeonhole refutations"
+    type: original-proof
+    relationship: other
+    note: "The comparison records the stated diagonal result from the accompanying development."
+  - title: "Bounds on the Total Coefficient Size of Nullstellensatz Proofs of the Pigeonhole Principle"
+    authors: ["Aaron Potechin", "Aaron Zhang"]
+    id: "10.4230/LIPIcs.ICALP.2024.117"
+    type: article
+    location: "ICALP 2024, Section 4, Question 1"
+    relationship: background
+    note: "Defines the real coefficient-mass model and poses the surplus and functionality question."
+    author_endorsement: not-contacted
+status:
+  scope: >-
+    The comparison states the original full-board real-coefficient separation
+    at exactly twice as many pigeons as holes. The companion project
+    separately verifies the equivalence to algebraic weakenings and proves
+    additional ratio regime theorems; those are not asserted by Comparator.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    - method: agent
+      models: []
+      framework: "OpenAI Codex and ChatGPT"
+      tool_setup: "Lean with Mathlib; agent-written tactic proofs and exact rational finite certificates"
+      cost:
+        wall_time: "Not fully tracked"
+        spend_usd: "Not tracked"
+        hardware: "Cloud CPU"
+      prompting_notes: "Formalize the full-board model, construct exact finite certificates, and audit the imported conclusions."
+  spend_usd: "Not tracked"
+  notes: "AI agents assisted mathematical development, implementation, proof checking and exposition under John Tripodo's direction."
+fidelity:
+  divergences: "The compared claim is only the explicit diagonal separation, not the full ratio phase diagram or the manuscript's open questions."
+review:
+  status: "self-assessed"
+  reviewers: []
+  notes: "Kernel replay and axiom audit; no independent human review or venue acceptance claimed."
+alignment:
+  namespace: "PHP"
+  statements:
+    - source: "Explicit diagonal separation in the accompanying proof development"
+      lean: "PHP.paper_diagonal_separation"
+      module: "Solution"
+      status: "proved"
+      note: "Plain lower exp(0.149 n−8) and functional upper 16 n³ at m=2n; arbitrary finite proofs on the full Boolean cube."
+acknowledgements: "Lean, Mathlib, the Palomar tooling, and the authors of the ICALP 2024 source problem."
