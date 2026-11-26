@@ -1,0 +1,359 @@
+[
+  {
+    "m": 2,
+    "n": 1,
+    "partial": false,
+    "concrete_boards": 4,
+    "board_orbits": 3,
+    "values": {
+      "plain": {
+        "exact": "3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 2,
+        "cube_orbits": 4
+      },
+      "functional": {
+        "exact": "3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 2,
+        "cube_orbits": 4
+      }
+    }
+  },
+  {
+    "m": 2,
+    "n": 1,
+    "partial": true,
+    "concrete_boards": 3,
+    "board_orbits": 2,
+    "values": {
+      "plain": {
+        "exact": "2",
+        "primal_nonzero": 2,
+        "dual_nonzero": 1,
+        "cube_orbits": 3
+      },
+      "functional": {
+        "exact": "2",
+        "primal_nonzero": 2,
+        "dual_nonzero": 1,
+        "cube_orbits": 3
+      }
+    }
+  },
+  {
+    "m": 3,
+    "n": 1,
+    "partial": false,
+    "concrete_boards": 8,
+    "board_orbits": 4,
+    "values": {
+      "plain": {
+        "exact": "3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 1,
+        "cube_orbits": 8
+      },
+      "functional": {
+        "exact": "3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 1,
+        "cube_orbits": 8
+      }
+    }
+  },
+  {
+    "m": 3,
+    "n": 1,
+    "partial": true,
+    "concrete_boards": 4,
+    "board_orbits": 2,
+    "values": {
+      "plain": {
+        "exact": "2",
+        "primal_nonzero": 2,
+        "dual_nonzero": 2,
+        "cube_orbits": 5
+      },
+      "functional": {
+        "exact": "2",
+        "primal_nonzero": 2,
+        "dual_nonzero": 2,
+        "cube_orbits": 5
+      }
+    }
+  },
+  {
+    "m": 4,
+    "n": 1,
+    "partial": false,
+    "concrete_boards": 16,
+    "board_orbits": 5,
+    "values": {
+      "plain": {
+        "exact": "3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 13
+      },
+      "functional": {
+        "exact": "3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 13
+      }
+    }
+  },
+  {
+    "m": 4,
+    "n": 1,
+    "partial": true,
+    "concrete_boards": 5,
+    "board_orbits": 2,
+    "values": {
+      "plain": {
+        "exact": "5/3",
+        "primal_nonzero": 2,
+        "dual_nonzero": 2,
+        "cube_orbits": 7
+      },
+      "functional": {
+        "exact": "5/3",
+        "primal_nonzero": 2,
+        "dual_nonzero": 2,
+        "cube_orbits": 7
+      }
+    }
+  },
+  {
+    "m": 3,
+    "n": 2,
+    "partial": false,
+    "concrete_boards": 64,
+    "board_orbits": 13,
+    "values": {
+      "plain": {
+        "exact": "11",
+        "primal_nonzero": 9,
+        "dual_nonzero": 3,
+        "cube_orbits": 63
+      },
+      "functional": {
+        "exact": "11",
+        "primal_nonzero": 8,
+        "dual_nonzero": 3,
+        "cube_orbits": 67
+      }
+    }
+  },
+  {
+    "m": 3,
+    "n": 2,
+    "partial": true,
+    "concrete_boards": 13,
+    "board_orbits": 3,
+    "values": {
+      "plain": {
+        "exact": "5",
+        "primal_nonzero": 3,
+        "dual_nonzero": 2,
+        "cube_orbits": 18
+      },
+      "functional": {
+        "exact": "5",
+        "primal_nonzero": 3,
+        "dual_nonzero": 2,
+        "cube_orbits": 18
+      }
+    }
+  },
+  {
+    "m": 4,
+    "n": 2,
+    "partial": false,
+    "concrete_boards": 256,
+    "board_orbits": 22,
+    "values": {
+      "plain": {
+        "exact": "164/15",
+        "primal_nonzero": 20,
+        "dual_nonzero": 19,
+        "cube_orbits": 218
+      },
+      "functional": {
+        "exact": "164/15",
+        "primal_nonzero": 21,
+        "dual_nonzero": 19,
+        "cube_orbits": 224
+      }
+    }
+  },
+  {
+    "m": 4,
+    "n": 2,
+    "partial": true,
+    "concrete_boards": 21,
+    "board_orbits": 3,
+    "values": {
+      "plain": {
+        "exact": "11/3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 43
+      },
+      "functional": {
+        "exact": "11/3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 43
+      }
+    }
+  },
+  {
+    "m": 5,
+    "n": 2,
+    "partial": false,
+    "concrete_boards": 1024,
+    "board_orbits": 34,
+    "values": {
+      "plain": {
+        "exact": "32/3",
+        "primal_nonzero": 17,
+        "dual_nonzero": 20,
+        "cube_orbits": 605
+      },
+      "functional": {
+        "exact": "32/3",
+        "primal_nonzero": 17,
+        "dual_nonzero": 17,
+        "cube_orbits": 614
+      }
+    }
+  },
+  {
+    "m": 5,
+    "n": 2,
+    "partial": true,
+    "concrete_boards": 31,
+    "board_orbits": 3,
+    "values": {
+      "plain": {
+        "exact": "8/3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 86
+      },
+      "functional": {
+        "exact": "8/3",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 86
+      }
+    }
+  },
+  {
+    "m": 6,
+    "n": 2,
+    "partial": false,
+    "concrete_boards": 4096,
+    "board_orbits": 50,
+    "values": {
+      "plain": {
+        "exact": "32/3",
+        "primal_nonzero": 17,
+        "dual_nonzero": 25,
+        "cube_orbits": 1458
+      },
+      "functional": {
+        "exact": "32/3",
+        "primal_nonzero": 16,
+        "dual_nonzero": 25,
+        "cube_orbits": 1470
+      }
+    }
+  },
+  {
+    "m": 6,
+    "n": 2,
+    "partial": true,
+    "concrete_boards": 43,
+    "board_orbits": 3,
+    "values": {
+      "plain": {
+        "exact": "11/5",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 150
+      },
+      "functional": {
+        "exact": "11/5",
+        "primal_nonzero": 3,
+        "dual_nonzero": 3,
+        "cube_orbits": 150
+      }
+    }
+  },
+  {
+    "m": 4,
+    "n": 3,
+    "partial": false,
+    "concrete_boards": 4096,
+    "board_orbits": 87,
+    "values": {
+      "plain": {
+        "exact": "2737/66",
+        "primal_nonzero": 81,
+        "dual_nonzero": 23,
+        "cube_orbits": 4239
+      },
+      "functional": {
+        "exact": "2737/66",
+        "primal_nonzero": 77,
+        "dual_nonzero": 23,
+        "cube_orbits": 4490
+      }
+    }
+  },
+  {
+    "m": 4,
+    "n": 3,
+    "partial": true,
+    "concrete_boards": 73,
+    "board_orbits": 4,
+    "values": {
+      "plain": {
+        "exact": "13",
+        "primal_nonzero": 4,
+        "dual_nonzero": 3,
+        "cube_orbits": 208
+      },
+      "functional": {
+        "exact": "13",
+        "primal_nonzero": 4,
+        "dual_nonzero": 3,
+        "cube_orbits": 208
+      }
+    }
+  },
+  {
+    "m": 5,
+    "n": 3,
+    "partial": true,
+    "concrete_boards": 136,
+    "board_orbits": 4,
+    "values": {
+      "plain": {
+        "exact": "13/2",
+        "primal_nonzero": 4,
+        "dual_nonzero": 4,
+        "cube_orbits": 771
+      },
+      "functional": {
+        "exact": "13/2",
+        "primal_nonzero": 4,
+        "dual_nonzero": 4,
+        "cube_orbits": 771
+      }
+    }
+  }
+]
