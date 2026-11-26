@@ -2,7 +2,7 @@
 
 Companion to John Tripodo, *How many pigeons make a refutation cheap? A coefficient-mass dichotomy for the plain pigeonhole principle*.
 
-The manuscript addresses the bounded-versus-diverging pigeon-to-hole ratio and the effect of functionality in Section 4, Question 1 of Potechin and Zhang (ICALP 2024). These scripts check finite arithmetic and small boards. The asymptotic theorems are proved in the manuscript.
+The manuscript addresses the bounded-versus-diverging pigeon-to-hole ratio and the effect of functionality in Section 4, Question 1 of Potechin and Zhang (ICALP 2024). These scripts check finite arithmetic and small boards. The asymptotic theorems are proved in the manuscript and the main claims are kernel-checked in the [Lean project](lean/).
 
 ## Rational block and Table 1
 
